@@ -39,7 +39,7 @@ const HomePage = () => {
                         </div>
                         <div className="lg:w-1/2">
                             <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">About <span
-                                className="text-primary">Eradiverse</span></h2>
+                                className="text-primary">EradiVerse</span></h2>
                             <p className="text-gray-600 dark:text-gray-300 mb-6">
                                 Eradiverse is a full-spectrum digital solutions company offering technology services,
                                 business consulting, and creative solutions under one roof. From web development and AI

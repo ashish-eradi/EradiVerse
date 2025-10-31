@@ -22,7 +22,7 @@ connection.once('open', () => {
 
 
 const formRoutes = require('./routes/forms');
-app.use('/forms', formRoutes);
+app.use('/api/forms', formRoutes);
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);

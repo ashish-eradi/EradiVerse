@@ -11,7 +11,7 @@
     }
   ],
   "rewrites": [
-    { "src": "/api/(.*)", "dest": "/server/server.js" },
-    { "src": "/(.*)", "dest": "/client/build/index.html" }
+    { "source": "/api/(.*)", "destination": "/server/server.js" },
+    { "source": "/(.*)", "destination": "/client/build/index.html" }
   ]
 }

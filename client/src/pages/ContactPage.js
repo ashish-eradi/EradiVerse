@@ -60,11 +60,8 @@ const ContactPage = () => {
                         </div>
                     </div>
                     <form onSubmit={handleSubmit} className="w-full">
-                        {notification && (
-                            <div className={`p-4 mb-4 text-sm rounded-lg ${notification.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-                                {notification.message}
-                            </div>
-                        )}
+
+
                         <div className="flex w-full flex-wrap items-end gap-4 px-4 py-3">
                             <label className="flex flex-col min-w-40 flex-1">
                                 <p className="text-white text-base font-medium leading-normal pb-2">Your Name</p>
@@ -103,6 +100,11 @@ const ContactPage = () => {
                                 <span className="truncate">Send Message</span>
                             </button>
                         </div>
+                        {notification && (
+                            <div className={`p-4 mb-4 text-sm rounded-lg ${notification.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+                                {notification.message}
+                            </div>
+                        )}
                     </form>
                 </div>
             </div>

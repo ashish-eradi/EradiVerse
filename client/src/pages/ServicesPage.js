@@ -1,17 +1,23 @@
 
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const ServicesPage = () => {
     return (
-        <main className="pt-24">
-               <section className="relative py-20 md:py-32 bg-cover bg-center"
-                style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/svr.png')" }}>
-                <div className="container mx-auto px-6 text-center">
-                    <div className="max-w-4xl mx-auto">
-                        <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
-                            <span className="text-gray-900 text-white">Our </span>
-                            <span className="gradient-text text-white">Services</span>
-                        </h1>
+        <>
+            <Helmet>
+                <title>Services - EradiVerse</title>
+                <meta name="description" content="Discover the services offered by EradiVerse, including technology services, business consulting, and creative solutions to help your business grow." />
+            </Helmet>
+            <main className="pt-24">
+                   <section className="relative py-20 md:py-32 bg-cover bg-center"
+                    style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/svr.png')" }}>
+                    <div className="container mx-auto px-6 text-center">
+                        <div className="max-w-4xl mx-auto">
+                            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
+                                <span className="text-gray-900 text-white">Our </span>
+                                <span className="gradient-text text-white">Services</span>
+                            </h1>
                         <p className="text-lg md:text-xl text-gray-600 text-white max-w-2xl mx-auto mb-10">
                             We offer a comprehensive suite of services to power your business growth. From initial concept to
                             final execution, we are your dedicated partners in the digital world.
@@ -125,6 +131,7 @@ const ServicesPage = () => {
                 </div>
             </section>
         </main>
+        </>
     );
 };
 

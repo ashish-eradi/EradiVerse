@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container mx-auto px-6 py-4">
                 <nav className="flex items-center justify-between">
                     <Link className="flex items-center space-x-2" to="/">
-                        <img alt="Eradiverse Logo" className="h-8 w-auto" src="/assets/ev latest logo.png" />
+                        <img alt="Eradiverse Logo" className="h-8 w-auto" src="/static-assets/ev latest logo.png" />
                         <span className="text-xl font-bold text-gray-900 dark:text-white">EradiVerse</span>
                     </Link>
 

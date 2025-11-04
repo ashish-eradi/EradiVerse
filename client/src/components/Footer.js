@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div>
                         <Link className="flex items-center space-x-2 mb-4" to="/">
-                            <img alt="Eradiverse Logo" className="h-8 w-auto" src="/assets/ev logo.png" />
+                            <img alt="Eradiverse Logo" className="h-8 w-auto" src="/assets/EradiVerse logo.png" />
                             <span className="text-xl font-bold">EradiVerse</span>
                         </Link>
                         <p className="text-gray-400">Building business growth through digital innovation.</p>

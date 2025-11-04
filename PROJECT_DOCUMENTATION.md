@@ -1,4 +1,3 @@
-
 # Project Documentation: EradiVerse Dynamic Website
 
 ## 1. Project Overview

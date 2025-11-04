@@ -88,3 +88,17 @@ The development will proceed in the following phases:
     *   Prepare the application for deployment.
 
 This documentation provides a comprehensive overview of the plan to build a dynamic website for EradiVerse. Once you approve this plan, I will begin the development process.
+
+## 6. SEO
+
+### Foundational On-Page SEO
+
+*   **Unique Titles & Meta Descriptions:** Every page has a unique title and description for search engines.
+*   **Sitemap:** A `sitemap.xml` file has been created to help search engines find your pages.
+*   **Robots.txt:** The `robots.txt` file is configured to allow crawlers and points them to your sitemap.
+
+### Advanced SEO Techniques
+
+*   **Social Media Meta Tags:** (Open Graph and Twitter Cards) These control how your pages look when shared on social media platforms like Facebook, LinkedIn, and X.
+*   **Structured Data (Schema Markup):** This provides search engines with more detailed information about your page's content (e.g., that it's a service, an organization, etc.), which can result in richer search results.
+*   **Canonical Tags:** These tell search engines which version of a URL is the "master" version, preventing duplicate content issues.
